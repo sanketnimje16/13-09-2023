@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script src="./js/script1.js"></script>
+        <script>
+            let x = 10;
+            let y = 20;
+            // fuction defination (One Time Process)
+            function addition(sum1,sum2) {
+                return sum1 + sum2;
+            }
+            // Function Calling (Many Time Process)
+            console.log(addition(10,20));
+
+            let console2 = { //Property:value
+                name:"Sanket",
+                surname:"Nimje",
+                adderess:"Nagpur",
+                log(){
+                    console.log("hello from function")
+                }
+                
+
+            }
+            console.log(console2.log());
+            let number1 = window.prompt("Enter The First Number program 1");
+            number1 = window.parseFloat(number1);
+            let number2 = window.prompt("Enter The Second Number program 1");
+            number2 = window.parseFloat(number2);
+            alert(number1 + number2);
+
+
+
+        </script>
+    </body>
+</html>
