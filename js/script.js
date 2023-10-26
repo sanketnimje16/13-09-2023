@@ -1,4 +1,4 @@
-/*console.log("Hello from external file");
+console.log("Hello from external file");
 let p = 49;
 let q = 7;
 
@@ -11,4 +11,3 @@ function divide(parameter1,parameter2){
 
 }
 console.log(divide(63,9));
-*/
